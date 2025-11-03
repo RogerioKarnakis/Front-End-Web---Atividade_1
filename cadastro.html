@@ -1,0 +1,32 @@
+<main>
+  <section>
+    <h2>Cadastro de Voluntário</h2>
+    <form id="formCadastro">
+      <fieldset>
+        <legend>Informações Pessoais</legend>
+        <label>Nome Completo: <input type="text" name="nome" required /></label>
+        <label>Email: <input type="email" name="email" required /></label>
+        <label>CPF: <input type="text" name="cpf" required /></label>
+        <label>Telefone: <input type="tel" name="telefone" required /></label>
+        <label>Data de Nascimento: <input type="date" name="nascimento" required /></label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Endereço</legend>
+        <label>Endereço: <input type="text" name="endereco" required /></label>
+        <label>CEP: <input type="text" name="cep" required /></label>
+        <label>Cidade: <input type="text" name="cidade" required /></label>
+        <label>Estado: 
+          <select name="estado" required>
+            <option value="">Selecione</option>
+            <option value="SP">SP</option>
+            <option value="RJ">RJ</option>
+            <!-- outros estados -->
+          </select>
+        </label>
+      </fieldset>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+</main>
